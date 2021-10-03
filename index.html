@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo Viggener</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <title>Index</title>
+    <link rel="stylesheet" href="CSS/index.css">
 </head>
 <body>
-
-
-            <h3>Ingrese el Texto Para Cifrar</h3>
-            <br>
-            <textarea id="cadena" cols="30" rows="10" maxlength="100" ></textarea>
-            <br>
-            <h3>Ingrese la llave que desea que tenga el crifrado</h3>
-            <br>
-            <input id="llave"  >
-            <br>
-            <p><input type="button" value="Cifrar" id="ci" ></p>
-            <p><input type="button" value="Descifrar" id="de" ></p>
-            <div id="resultado" ></div>
-
-
-
-
-
-
-    <script src="JS/viggenere.js" ></script>
+    <div class="Fondo">
+    <div class="cuadroS">
+        <div class="cuadroA">
+            <div class="textoSuperior">
+                <p>Seleccione el método con el que desea cifrar</p>
+            </div>
+            <form action="/indexVerdadero.html">
+            <div class="botonesCif">
+                <p id="boton"><input name="btn" type="radio" id="boton 1">Cifrado de Cesar</input></p>
+            </div>
+            <div class="botonesCif">
+                <p id="boton"><input name="btn" type="radio" id="boton 2">Cifrado de Viggenere</input></p>
+            </div>
+            <div class="btnEnviar">
+                <input onclick="reedireccionar()" type="button" value="Siguiente" id="btnE">
+            </div>
+            </form>
+        </div>
+    </div>
+    </div>
+       
+    <script src="JS/index.js" ></script>
 </body>
 </html>

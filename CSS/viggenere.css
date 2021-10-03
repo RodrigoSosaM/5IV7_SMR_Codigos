@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    font-family: roboto;
+}
+body{
+    margin: 0; 
+    min-height: 720px;
+    background: (rgb(239,239,239));
+}
+#resultado{
+    color: rgb(0, 0, 0);
+}
+.fondo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+h3{
+    color: rgb(0, 0, 0);
+}
+#h3{
+    display: flex;
+    justify-content: center;
+}
+#areaT{
+    display: flex;
+    justify-content: center;
+}
+#key{
+    display: flex;
+    justify-content: center;
+}
+#final{
+    display: flex;
+    justify-content: center;
+}
+.contenedorPrincipal{
+    margin-top: 4rem;
+}
+#resultado{
+    display: flex;
+    justify-content: center;
+}
+#textoN{
+    display: flex;
+    justify-content: center;
+}

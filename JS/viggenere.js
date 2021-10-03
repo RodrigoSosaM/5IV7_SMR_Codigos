@@ -2,22 +2,21 @@ const abc = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
             'l', 'm', 'n', 'ñ', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v',
             'w', 'x', 'y', 'z'];
 
-//llave
+
 let key = "";
 
 
 $(document).ready(function(){
     $('#ci').click(function(){
 
-        //para cifrar vamos a usar la funcion
-        // y = (x+z)mod27 pq estamos usando la ñ
+       
 
-        //vamos a traer los datos de los campos de texto
+        
         key = document.getElementById('llave').value;
-        //vamos a verificar los datos
+        
         key = key.replace(/ /g, '');
 
-        //obtener el mensaje
+        
         let mess = document.getElementById('cadena').value;
 
         mess = mess.replace(/ /g, '');
@@ -26,7 +25,7 @@ $(document).ready(function(){
 
         let keyComplete = "";
 
-        //algoritmo
+        
 
         if(revision(mess, key)){
 
@@ -35,38 +34,35 @@ $(document).ready(function(){
             }
 
             for(var i = 0; i<mess.length; i++){
-                //obtener la poscion de la letra por letra del mensaje
+                
                 let charr = mess.charAt(i);
                 let posm = getPosition(charr);
 
                 charr = keyComplete.charAt(i);
                 let posk = getPosition(charr);
-                //ejecutamos el algoritmo
+                
 
                 
                 let newVal = change(posm, posk);
 
-                newMess += abc[newVal];  //mensaje cifrado
+                newMess += abc[newVal];  
             }
-            //imprimir el resultado
+           
             document.getElementById('resultado').innerHTML = newMess;
         }else{
-            //aqui es si no se cumple las condiciones
+            
         }
 
 
     });
     $('#de').click(function(){
 
-        //para cifrar vamos a usar la funcion
-        // y = (x+z)mod27 pq estamos usando la ñ
-
-        //vamos a traer los datos de los campos de texto
+        
         key = document.getElementById('llave').value;
-        //vamos a verificar los datos
+        
         key = key.replace(/ /g, '');
 
-        //obtener el mensaje
+       
         let mess = document.getElementById('cadena').value;
 
         mess = mess.replace(/ /g, '');
@@ -75,7 +71,7 @@ $(document).ready(function(){
 
         let keyComplete = "";
 
-        //algoritmo
+       
 
         if(revision(mess, key)){
 
@@ -83,22 +79,22 @@ $(document).ready(function(){
                 keyComplete += key.charAt((i%Number(key.length)));
             }
             for(var i = 0; i<mess.length; i++){
-                //obtener la poscion de la letra por letra del mensaje
+                
                 let charr = mess.charAt(i);
                 let posm = getPosition(charr);
 
                 charr = keyComplete.charAt(i);
                 let posk = getPosition(charr);
 
-                //ejecutamos el algoritmo
+                
                 
                 let newVal = rechange(posm, posk);
-                newMess += abc[newVal];  //mensaje decifrado
+                newMess += abc[newVal];  
             }
-            //imprimir el resultado
+            
             document.getElementById('resultado').innerHTML = newMess;
         }else{
-            //aqui es si no se cumple las condiciones
+            
         }
 
 
@@ -109,7 +105,7 @@ $(document).ready(function(){
 //cambio
 
 function change(posm, posk){
-    //aplicamos y = (x+z)mod27
+
     let y = (posm+posk)%27;
     return y;
 }
@@ -130,8 +126,8 @@ function getPosition(letra){
 }
 
 function revision(mess, desp){
-    //validar la entrada de los datos
-    //expresion regular
+
+   
     const re = /^([a-zñ?]+([]*[a-zñ?]?['-]?[a-zñ?]+)*)$/
 
     var acc = true;
@@ -151,19 +147,30 @@ function revision(mess, desp){
 }
 
 function sd(){
-    //alert para decir que el texto no ha sido aceptado
+    
     alert("El texto ingreso no ha sido aceptado, ingrese solo minuscilas y evite numeros y simbolos");
 }
 
 
 function sdd(){
-    //alert para decir que el texto no ha sido aceptado
+    
 
     alert("La clave ingresa es incorrecta, no cumple con las normas de solo minusculas y no usar numeros y/o simbolos");
 }
 
 function sz(){
-    //alert para decir que el texto no ha sido aceptado
+    
 
     alert("La clave no puede ser mayor que el mensaje");
+}
+
+function cambiarci(){
+    if (document.getElementById("ci1").checked){
+        window.location = 'Ejemplo_Cesar_1.html';
+        window.location.assign('Ejemplo_Cesar_1.html');
+    }
+    else if (document.getElementById("ci2").checked){
+        window.location = 'Ejemplo_Vigenere_2.html';
+        window.location.assign('Ejemplo_Vigenere_2.html');
+    }
 }

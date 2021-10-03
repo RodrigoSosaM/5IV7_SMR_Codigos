@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    font-family: roboto;
+}
+body{
+    margin: 0; 
+    min-height: 720px;
+    background: (rgb(239,239,239));
+}
+.Fondo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.cuadroS{
+    margin-top: 256px;
+}
+.cuadroA{
+    background: (rgb(239,239,239));
+    padding-block: 50px;
+}
+.botonesCif{
+    background: rgb(247,96,31);
+    margin-inline: 3rem;
+    border-radius: 15px;
+    margin-block: rem;
+}
+.textoSuperior{
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    text-align: center;
+    margin-inline: 3rem;
+}
+#boton{
+    padding: 8px;
+}
+#btnE{
+    background: rgb(247,96,31);
+    padding: 8px;
+    border-radius: 25px;
+    border: none;
+    display: flex;
+    justify-items: right;
+}
+.btnEnviar{
+    display: flex;
+    justify-content: flex-end;
+    margin-inline: 3rem;
+}
