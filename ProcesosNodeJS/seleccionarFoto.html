@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="" class="formulario" id="formulario" onsubmit="return validarFormR()">
+         <!-- Grupo: Foto -->
+         <div class="formulario__grupo" id="grupo__fotoP">
+            <label for="fotoP" class="formulario__label">Ingresa una foto de perfil</label>
+            <div class="formulario__grupo-input">
+                <input type="file" class="seleccionar_archivo" id="fotoP" name="fotoP" onchange="return validarExt()">
+                <div id="circulo">
+                    <label type="image" id="foto_seleccionada" class="fotoP"></label>
+                </div>
+            </div>
+        </div>
+        <div id="div_registrate">
+        <label id="h1"><h2>Registrate</h2></label> 
+        </div>
+    </form>
+</body>
+</html>
