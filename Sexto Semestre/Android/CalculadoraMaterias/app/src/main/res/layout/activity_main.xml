@@ -7,61 +7,101 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="88dp"
-        android:text="Promedio"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
-
-    <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
-        android:text="Ingles"
+        android:layout_marginTop="50dp"
+        android:text="Materia 1"
+        android:textColor="#000"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="44dp" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="8dp"
+        android:text="Parcial 1"
+        android:textColor="#000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:text="Parcial 2"
+        android:textColor="#000"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:text="Parcial 3"
+        android:textColor="#000"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:text="General"
+        android:textColor="#000"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="71dp"
-        android:layout_height="36dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="32dp"
-        android:text="Proyecto Integrador"
+        android:layout_marginTop="30dp"
+        android:text="Materia 2"
+        android:textColor="#000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="63dp"
-        android:layout_height="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="24dp"
-        android:text="Metodos Agiles de Programación"
+        android:layout_marginTop="30dp"
+        android:text="Materia 3"
+        android:textColor="#000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="81dp"
-        android:layout_height="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="20dp"
-        android:text="Probabildad y Estadistica"
+        android:layout_marginTop="30dp"
+        android:text="Materia 4"
+        android:textColor="#000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="76dp"
-        android:layout_height="51dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="28dp"
-        android:text="Ingeneria de Software Basica"
+        android:layout_marginTop="30dp"
+        android:text="Materia 5"
+        android:textColor="#000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -70,8 +110,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="52dp"
-        android:text="Fisica"
+        android:layout_marginTop="30dp"
+        android:text="Materia 6"
+        android:textColor="#000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -80,8 +121,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="44dp"
-        android:text="Quimica"
+        android:layout_marginTop="30dp"
+        android:text="Materia 7"
+        android:textColor="#000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -90,8 +132,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="24dp"
-        android:text="Lab de Proyectos"
+        android:layout_marginTop="30dp"
+        android:text="Materia 8"
+        android:textColor="#000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -100,149 +143,455 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="44dp"
-        android:text="Soporte de Software"
+        android:layout_marginTop="30dp"
+        android:text="Materia 9"
+        android:textColor="#000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
-    <EditText
-        android:id="@+id/txt_math5"
-        android:layout_width="111dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="8dp"
-        android:ems="10"
-        android:hint="Ingresa un valor"
-        android:inputType="number"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math4" />
-
-    <EditText
-        android:id="@+id/txt_math6"
-        android:layout_width="111dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:hint="Ingresa un valor"
-        android:inputType="number"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math5" />
-
-    <EditText
-        android:id="@+id/txt_math7"
-        android:layout_width="111dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="12dp"
-        android:ems="10"
-        android:hint="Ingresa un valor"
-        android:inputType="number"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math6" />
-
-    <EditText
-        android:id="@+id/txt_math9"
-        android:layout_width="111dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="16dp"
-        android:ems="10"
-        android:hint="Ingresa un valor"
-        android:inputType="number"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math8" />
-
-    <Button
-        android:id="@+id/button"
+    <TextView
+        android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="16dp"
-        android:text="Calcular"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        android:text="General"
+        android:textColor="#000"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math9" />
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <EditText
-        android:id="@+id/txt_result"
-        android:layout_width="111dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="132dp"
+        android:id="@+id/txt_math1_p1"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM1"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <EditText
+        android:id="@+id/txt_math2_p1"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM2"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math1_p1" />
+
+    <EditText
+        android:id="@+id/txt_math2_p2"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM2"
+        app:layout_constraintStart_toEndOf="@+id/txt_math2_p1"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math1_p2" />
+
+    <EditText
+        android:id="@+id/txt_gen_mt2"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/txt_math2_p3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_gen_mt1" />
+
+    <EditText
+        android:id="@+id/txt_math3_p1"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM3"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math2_p1" />
+
+    <EditText
+        android:id="@+id/txt_math3_p2"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM3"
+        app:layout_constraintStart_toEndOf="@+id/txt_math3_p1"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math2_p2" />
+
+    <EditText
+        android:id="@+id/txt_math3_p3"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM3"
+        app:layout_constraintStart_toEndOf="@+id/txt_math3_p2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math2_p3" />
+
+    <EditText
+        android:id="@+id/txt_gen_mt3"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/txt_math3_p3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_gen_mt2" />
+
+    <EditText
+        android:id="@+id/txt_math4_p1"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM4"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math3_p1" />
+
+    <EditText
+        android:id="@+id/txt_math4_p2"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM4"
+        app:layout_constraintStart_toEndOf="@+id/txt_math4_p1"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math3_p2" />
+
+    <EditText
+        android:id="@+id/txt_math4_p3"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM4"
+        app:layout_constraintStart_toEndOf="@+id/txt_math4_p2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math3_p3" />
+
+    <EditText
+        android:id="@+id/txt_gen_mt4"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/txt_math4_p3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_gen_mt3" />
+
+    <EditText
+        android:id="@+id/txt_math5_p1"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM5"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math4_p1" />
+
+    <EditText
+        android:id="@+id/txt_math5_p2"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM5"
+        app:layout_constraintStart_toEndOf="@+id/txt_math5_p1"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math4_p2" />
+
+    <EditText
+        android:id="@+id/txt_math5_p3"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM5"
+        app:layout_constraintStart_toEndOf="@+id/txt_math5_p2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math4_p3" />
+
+    <EditText
+        android:id="@+id/txt_math6_p1"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM6"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math5_p1" />
+
+    <EditText
+        android:id="@+id/txt_math6_p2"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM6"
+        app:layout_constraintStart_toEndOf="@+id/txt_math6_p1"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math5_p2" />
+
+    <EditText
+        android:id="@+id/txt_math6_p3"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM6"
+        app:layout_constraintStart_toEndOf="@+id/txt_math6_p1"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math5_p3" />
+
+    <EditText
+        android:id="@+id/txt_gen_mt6"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/txt_math6_p3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_gen_mt5" />
+
+    <EditText
+        android:id="@+id/txt_math7_p1"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM7"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math6_p1" />
+
+    <EditText
+        android:id="@+id/txt_math7_p2"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM7"
+        app:layout_constraintStart_toEndOf="@+id/txt_math7_p1"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math6_p2" />
+
+    <EditText
+        android:id="@+id/txt_math7_p3"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM7"
+        app:layout_constraintStart_toEndOf="@+id/txt_math7_p2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math6_p3" />
+
+    <EditText
+        android:id="@+id/txt_gen_mt7"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/txt_math7_p3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_gen_mt6" />
+
+    <EditText
+        android:id="@+id/txt_math8_p1"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM8"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math7_p1" />
+
+    <EditText
+        android:id="@+id/txt_math8_p2"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM8"
+        app:layout_constraintStart_toEndOf="@+id/txt_math8_p1"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math7_p2" />
+
+    <EditText
+        android:id="@+id/txt_math8_p3"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM8"
+        app:layout_constraintStart_toEndOf="@+id/txt_math8_p2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math7_p3" />
+
+    <EditText
+        android:id="@+id/txt_gen_mt8"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/txt_math8_p3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_gen_mt7" />
+
+    <EditText
+        android:id="@+id/txt_math9_p1"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM9"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math8_p1" />
+
+    <EditText
+        android:id="@+id/txt_math9_p2"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="24dp"
         android:ems="10"
-        android:hint="Ingresa un valor"
         android:inputType="number"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        android:onClick="progenM9"
+        app:layout_constraintStart_toEndOf="@+id/txt_math9_p1"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math8_p2" />
 
     <EditText
-        android:id="@+id/txt_math8"
-        android:layout_width="111dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="12dp"
+        android:id="@+id/txt_math9_p3"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
         android:ems="10"
-        android:hint="Ingresa un valor"
         android:inputType="number"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math7" />
+        android:onClick="progenM9"
+        app:layout_constraintStart_toEndOf="@+id/txt_math9_p2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math8_p3" />
 
     <EditText
-        android:id="@+id/txt_math4"
-        android:layout_width="111dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="8dp"
+        android:id="@+id/txt_gen_mt9"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
         android:ems="10"
-        android:hint="Ingresa un valor"
         android:inputType="number"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math3" />
+        app:layout_constraintStart_toEndOf="@+id/txt_math9_p3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_gen_mt8" />
 
     <EditText
-        android:id="@+id/txt_math3"
-        android:layout_width="111dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="220dp"
-        android:layout_marginTop="4dp"
+        android:id="@+id/txt_gen_sem"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="17dp"
         android:ems="10"
-        android:hint="Ingresa un valor"
         android:inputType="number"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math2" />
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math9_p1" />
 
     <EditText
-        android:id="@+id/txt_math2"
-        android:layout_width="83dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="8dp"
+        android:id="@+id/txt_gen_mt5"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
         android:ems="10"
-        android:hint="Ingresa un valor"
         android:inputType="number"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_math1" />
+        app:layout_constraintStart_toEndOf="@+id/txt_math5_p3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_gen_mt4" />
 
     <EditText
-        android:id="@+id/txt_math1"
-        android:layout_width="111dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="44dp"
+        android:id="@+id/txt_math2_p3"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
         android:ems="10"
-        android:hint="Ingresa un valor"
         android:inputType="number"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:onClick="progenM2"
+        app:layout_constraintStart_toEndOf="@+id/txt_math2_p2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_math1_p3" />
+
+    <EditText
+        android:id="@+id/txt_gen_mt1"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/txt_math1_p3"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <EditText
+        android:id="@+id/txt_math1_p3"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM1"
+        app:layout_constraintStart_toEndOf="@+id/txt_math1_p2"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <EditText
+        android:id="@+id/txt_math1_p2"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:inputType="number"
+        android:onClick="progenM1"
+        app:layout_constraintStart_toEndOf="@+id/txt_math1_p1"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
